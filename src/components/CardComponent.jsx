@@ -1,6 +1,6 @@
 const CardComponent = () => {
   return (
-    <div className="bg-whiteText p-4 w-full celu:w-[20rem] rounded-2xl flex flex-col gap-5">
+    <article className="bg-whiteText p-4 w-full celu:w-[20rem] rounded-2xl flex flex-col gap-5">
       <div className="rounded-xl overflow-hidden hover:scale-105 transition ease-in-out duration-300 cursor-pointer">
         <img src="images/image-qr-code.png" alt="qr-image" />
       </div>
@@ -13,7 +13,7 @@ const CardComponent = () => {
           to the next level
         </p>
       </div>
-    </div>
+    </article>
   );
 };
 

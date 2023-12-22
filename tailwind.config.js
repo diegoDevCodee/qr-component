@@ -6,7 +6,7 @@ export default {
       colors: {
         whiteText: "hsl(0, 0%, 100%)",
         lightGray: "hsl(212, 45%, 89%)",
-        grayishBlue: "hsl(220, 15%, 55%)",
+        grayishBlue: "hsl(220, 15%, 40%)",
         darkBlue: "hsl(218, 44%, 22%)",
       },
       screens: {
@@ -14,6 +14,7 @@ export default {
       },
     },
   },
+  // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
