@@ -9,7 +9,17 @@ export default {
         grayishBlue: "hsl(220, 15%, 55%)",
         darkBlue: "hsl(218, 44%, 22%)",
       },
+      screens: {
+        celu: "375px",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      "light",
+      "dark",
+      "cupcake",
+    ],
+  },
 };
